@@ -15,4 +15,5 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html') // Essa será a resposta enviada para o front ele está enviando o arquivo index.html para ser apresentado na tela.
 });
 
+
 module.exports = app // aqui vai exportar esse app para o arquivo server.js 

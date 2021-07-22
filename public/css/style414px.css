@@ -4,7 +4,7 @@
     }
     .principal {
          width: 385px; 
-         height: 4000px; 
+         /*height: 4000px; */
         /* padding-left: 50px; */
         /* padding-right: 50px; */
         background: #fff;
@@ -37,7 +37,7 @@
         margin-top: 0px;
     }
     .conteudoSobre {
-        font-family: 'robotoregular';
+        font-family: 'robotolight';
         font-weight: normal;
         font-size: 16px;
         line-height: 20px;

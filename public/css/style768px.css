@@ -8,7 +8,7 @@ body{
 }
 .principal {
     width: 1349px;
-    height: 5356px;
+   /* height: 5356px;*/
     /* padding-left: 50px; */
     /* padding-right: 50px; */
     background: #fff;
@@ -22,9 +22,19 @@ height: 768px;
 background: #BD2055;
 /*background:#7EBFB2;*/
 
-
-
 }
+
+.projetosFundo{
+    /*width: 1349px;*/
+    position: absolute;
+    left: 50px;
+    width: calc(100% - 100px);
+    
+    
+    background: #BD2055;
+    /*background:#7EBFB2;*/
+    
+    }
 
 
 .sobre{
@@ -52,7 +62,7 @@ background: #000;
     margin-top: 0px;
 }
 .conteudoSobre {
-    font-family: 'robotoregular';
+    font-family: 'robotolight';
     font-weight: normal;
     font-size: 16px;
     line-height: 40px;
@@ -88,7 +98,7 @@ background: #000;
         margin-right: 175px;
     }
     .conteudoContato {
-        font-family: 'robotoregular';
+        font-family: 'robotolight';
         font-weight: normal;
         font-size: 16px;
         line-height: 40px;
@@ -189,8 +199,6 @@ background: #000;
 }
 
 .processoMenu{
-
-
 
     font-family:'Morganite Bold';
     font-weight:normal;
