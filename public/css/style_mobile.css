@@ -1,4 +1,4 @@
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 385px) {
     body {
         margin: 0;
     }
@@ -21,7 +21,7 @@
         width: 262px;
         margin-left: 30px;
         /* margin-top: 100px; */
-        font-family: 'Morganite';
+        font-family: 'Morganite Bold';
         font-weight: 700;
         font-size: 64px;
         line-height: 61px;
