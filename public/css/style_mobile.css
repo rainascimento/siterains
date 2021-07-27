@@ -1,0 +1,78 @@
+@media only screen and (max-width: 550px) {
+    body {
+        margin: 0;
+    }
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+    .principal {
+        width: 385px;
+        height: 673px;
+        /* padding-left: 50px; */
+        /* padding-right: 50px; */
+        background: #323232;
+       /* margin: 0 auto;*/
+    }
+    .divfrase {
+        /* position: absolute; */
+        width: 262px;
+        margin-left: 30px;
+        /* margin-top: 100px; */
+        font-family: 'Morganite';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 61px;
+        color: #FFFFFF;
+        /* padding-left: 60px; */
+        /* float: right; */
+        /* margin-right: 20px; */
+    }
+    .fraseimg {
+        float: right;
+        position: relative;
+        top: -195px;
+    }
+    .logo{
+        padding-left:30px ;
+        padding-top: 30px;
+        display: block;
+    }
+}
+
+@font-face {
+    font-family: 'Elementary Blocks Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Elementary Blocks Regular'), url('../font/ElementaryBlocks.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../font/roboto-regular-webfont.woff2') format('woff2'), url('../font/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../font/roboto-light-webfont.woff2') format('woff2'), url('../font/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Morganite Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Morganite Medium'), url('../font/Morganite-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Morganite Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Morganite Bold'), url('../font/Morganite-Bold.woff') format('woff');
+}
