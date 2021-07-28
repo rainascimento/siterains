@@ -4,6 +4,7 @@
     }
     .mobile {
         display: block;
+        width: 100%;
     }
     .desktop {
         display: none;
@@ -14,10 +15,10 @@
         /* padding-left: 50px; */
         /* padding-right: 50px; */
         background: #323232;
-       /* margin: 0 auto;*/
+        /* margin: 0 auto; */
     }
     .divfrase {
-        /* position: absolute; */
+        position: absolute;
         width: 262px;
         margin-left: 30px;
         /* margin-top: 100px; */
@@ -31,14 +32,103 @@
         /* margin-right: 20px; */
     }
     .fraseimg {
-        float: right;
-        position: relative;
-        top: -195px;
+        /* float: right; */
+        position: absolute;
+        top: 300px;
+        left: 130px;
+        /* margin-top: 256px; */
+        /* margin-left: 170px; */
     }
-    .logo{
-        padding-left:30px ;
+    .logo {
+        padding-left: 30px;
         padding-top: 30px;
         display: block;
+    }
+    .nosso_processo {
+        width: 100%;
+        height: 673px;
+        /* padding-left: 50px; */
+        /* padding-right: 50px; */
+        background: #fff;
+        /* margin: 0 auto; */
+    }
+    .nosso_processo span {
+        /* position: absolute; */
+        font-family: 'robotolight';
+        font-size: 24px;
+        margin-left: 30px;
+        display: inline-block;
+    }
+    #titulo_span {
+        font-family: 'Morganite Bold';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 61px;
+        color: #000;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 114px;
+        /* position: relative; */
+        margin-top: 28px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    .imersaoinfo {
+        background: #BD2055;
+        border-radius: 20px;
+        padding: 22px 0 0px 22px;
+        width: 298px;
+        height: 273px;
+        margin-left: 15px;
+        display: block;
+        margin-top: 20px;
+    }
+    .imersaoinfo p {
+        width: 228px;
+        height: 270px;
+        font-family: 'robotolight';
+        font-style: normal;
+        
+        font-size: 12px;
+        line-height: 25px;
+        /* or 208% */
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .imersaoinfo img {
+        position: absolute;
+        top: 830px;
+        left: 0px;
+    }
+
+    
+    .projetarinfo {
+        background: #F09B2E;
+        border-radius: 20px;
+        padding: 22px 0 0px 22px;
+        width: 298px;
+        height: 273px;
+        margin-left: 15px;
+        display: block;
+        margin-top: 20px;
+    }
+    .projetarinfo p {
+        width: 228px;
+        height: 270px;
+        font-family: 'robotolight';
+        font-style: normal;
+        
+        font-size: 12px;
+        line-height: 25px;
+        /* or 208% */
+        color: #000000;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .projetarinfo img {
+        position: absolute;
+        top: 1430px;
+        left: 0px;
     }
 }
 
