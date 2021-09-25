@@ -155,7 +155,7 @@
         background: #161616;
         border-radius: 20px;
         padding: 22px 0 0px 22px;
-        width: 298px;
+        width: 325px;
         height: 273px;
         margin-left: 15px;
         display: block;
@@ -178,33 +178,267 @@
         left: 0px;
     }
     .testarinfo {
-        padding: 22px 0 0px 22px;
+        padding: 26px 0 0px 22px;
         background: #FFFFFF;
         border: 1px solid #000000;
         box-sizing: border-box;
         border-radius: 20px;
-        width: 298px;
-        height: 273px;
+        width: 345px;
+        height: 290px;
         margin-left: 15px;
         display: block;
         margin-top: 20px;
     }
     .testarinfo p {
-        width: 228px;
+        width: 300px;
+        margin-top: -15px;
         height: 270px;
         font-family: 'robotolight';
         font-style: normal;
         font-size: 12px;
         line-height: 25px;
-        /* or 208% */
         color: #161616;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     }
     .testarinfo img {
         position: absolute;
         top: 3290px;
         left: 0px;
     }
+
+
+
+    /*PROJETOS*/
+
+
+    .fundo-projeto{
+        width: 100%;
+        height: 500px;
+        background: #BD2055;
+        margin-top: 300px;
+    }
+    #titulo-projeto_span {
+        font-family: 'Morganite Bold';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 61px;
+        color: #000;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 150px;
+        margin-top: 28px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+
+    /* SOBRE  */
+
+    .fundo-sobre{
+        background: #161616;
+        background-image: url('../img/sobre_mob.png');
+        height: 737.45px;
+
+    }
+    .sobre{
+
+        width: 262px;
+        margin-left: 50px;
+        padding-top: 60px;
+        margin-top: 0px;
+        font-family: 'Morganite Bold';
+        font-weight: bold;
+        font-style: normal;
+        font-size: 64px;
+        line-height: 58px;
+        color: #FFFFFF;
+    
+    }
+    .textosobre{
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 30px;
+        margin-left: 35px;
+        font-size: 13px;
+        line-height: 24px;
+        width: 314px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+
+
+    /* CADASTRO MOBILE */
+
+    .cadastromobile-fundo{
+        width: 375px;
+        height: 950px;
+        padding-top: 1px;
+        background: #7EBFB2;
+    }
+    #cadastromobile_p{
+        font-family: 'Morganite Bold';
+        font-style: normal;
+        font-weight: bold;
+        padding-left: 35px;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: #FFFFFF; 
+    }
+    #cadastromobile-texto{
+
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        width: 320px;
+        padding-left: 43px;
+        font-size: 14px;
+        line-height: 25px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    
+    }
+    .cadastromobile-nome{
+        margin-top: 30px;
+
+    }
+    #nomemob{
+        width: 327px;
+        margin-left: 22px;
+        height: 64px;
+        background: #0a544559;
+        margin-top: 24px;
+        color: #FFFFFF;
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;   
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius: 4px; 
+        border: none;   
+        padding-left: 10px;
+    }
+    #nomemob::placeholder{
+        color: #FFFFFF;
+
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        margin-left: 10px;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    #emailmob{
+        width: 327px;
+        margin-left: 22px;
+        height: 64px;
+        background: #0a544559;
+        margin-top: 24px;
+        color: #FFFFFF;
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;   
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius: 4px; 
+        border: none;  
+        padding-left: 10px;
+    }
+    #emailmob::placeholder{
+        color: #FFFFFF;
+    
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    #numeromob{
+        width: 327px;
+        margin-left: 22px;
+        height: 64px;
+        background: #0a544559;
+        margin-top: 24px;
+        color: #FFFFFF;
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;   
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius: 4px; 
+        border: none;  
+        padding-left: 10px;
+    }
+    #numeromob::placeholder{
+        color: #FFFFFF;
+      
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    #mensagemmob{
+        width: 327px;
+        margin-left: 22px;
+        height: 172px;
+        background: #0a544559;
+        margin-top: 24px;
+        color: #FFFFFF;
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;   
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius: 4px; 
+        border: none;  
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    #mensagemmob::placeholder{
+        color: #FFFFFF;
+       
+        padding-top: 10px;
+        font-family: 'robotoregular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+     
+    }
+
+    #botaomob {
+        width: 150px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin-top: 24px;
+        margin-left: 200px;
+    }
+
+
 }
 
 @font-face {

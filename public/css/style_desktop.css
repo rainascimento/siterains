@@ -132,7 +132,7 @@ background: #000;
         font-size: 12px;
         padding-left: 30px;
         border: green;
-        /* color: white; */
+       /*  color: white; */
     }
     .campos textarea{
         
@@ -148,7 +148,7 @@ background: #000;
         padding-top: 20px;
         overflow-y: hidden;
         resize: none;
-        /* color: white; */
+      /*   color: white;*/ 
     }
     
     .campos input::placeholder {
