@@ -251,7 +251,7 @@
 
         </div>
 
-        <div class="row-1 row-1b contato">
+        <div class="row-1 row-1b contato ">
 
             <div class="col-6">
 
@@ -274,16 +274,18 @@
             </div>
 
             <div class="col-6">
+                
 
                 <div class="campos">
-                    <form>
+                    <form class="form" method="POST" action="/">
 
-                        <input type="text" id="name" name="name" required placeholder="NOME" size="55">
-                        <input type="text" id="email" name="email" required placeholder="E-MAIL" size="55">
-                        <input type="text" id="telefone" name="telefone" required placeholder="TELEFONE PARA CONTATO"
+
+                        <input type="text" id="name" name="nomemob" required placeholder="NOME" size="55">
+                        <input type="text" id="email" name="emailmob" required placeholder="E-MAIL" size="55">
+                        <input type="text" id="telefone" name="numeromob" required placeholder="TELEFONE PARA CONTATO"
                             size="55">
-                        <textarea id="story" name="story" rows="5" placeholder="MENSAGEM" cols="58"></textarea>
-                        <input type="button" id="botao" value="ENVIAR">
+                        <textarea id="story" name="mensagemmob" rows="5" placeholder="MENSAGEM" cols="58"></textarea>
+                        <input type="submit" id="botao" value="ENVIAR">
                     </form>
 
 
@@ -354,7 +356,7 @@
                 <img src="img/04_mob.png" alt="">
             </div>
 
-            
+
             <span style="margin-top: 340px;">TESTAR E IMPLANTAR</span>
 
             <div class="testarinfo">
@@ -367,12 +369,68 @@
 
 
 
+            <div class="fundo-projeto">
+                <span id="titulo-projeto_span">PROJETOS</span>
+            </div>
+
+            <div class="fundo-sobre ">
+                <div>
+                    <p class="sobre">SOBRE</p>
+
+                </div>
+
+                <div class="textosobre">
+                    <p>
+                        A RAINS busca a resolução dos problemas dos nossos clientes através de um processo de
+                        condensação de
+                        ideias, utilizando estatísticas matemáticas, processos, design e muita criatividade para a
+                        descoberta de novas soluções focados em ganha-ganha entre nossos clientes e seus consumidores.
+                    </p>
+                </div>
+                <div class="textosobre">
+                    <p> Usando ferramentas mais atuais do mercado e métodos já testados e bastante utilizados por
+                        grandes
+                        empresas. Aqui utilizamos Design Thinking para o desenho e levantamento do problema processo
+                        esse de
+                        pensamento crítico e criativo.</p>
+                </div>
+                <div class="textosobre">
+                    <p>
+                        Possibilitando a organização de ideias de modo a estimular tomadas de decisão e a busca por
+                        conhecimento e gerenciamos a entrega da solução de forma ágil utilizando metodologia SCRUM
+                        baseados
+                        em lista de backlog e entregas em sprints previamente definidas durante a fase de implementação.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="cadastromobile-fundo">
+                <p id="cadastromobile_p">Comece sua jornada para melhorar os negócios</p>
 
 
+                <p id="cadastromobile-texto">A RAINS busca a resolução dos problemas dos nossos clientes através de um
+                    processo de condensação de ideias, utilizando estatísticas matemáticas, processos, design e muita
+                    criatividade.
+                </p>
+                <div class="cadastromobile-nome">
+                    <form class="form" method="POST" action="/">
+
+                        <input type="text" id="nomemob" name="nomemob" placeholder="nome">
+                        <input type="text" id="emailmob" name="emailmob" placeholder="email">
+                        <input type="text" id="numeromob" name="numeromob" placeholder="telefone para contato">
+                        <textarea id="mensagemmob" name="mensagemmob" rows="5" cols="33" placeholder="mensagem"></textarea>
+
+
+
+
+                        <button id="botaomob"  type="submit">ENVIAR</button>
+                    </form>
+                </div>
+
+            </div>
 
         </div>
-
-        
 
     </div>
 
